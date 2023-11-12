@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.adminName', 'Dashboard | JobBoard') }}</title>
+    <title>{{ config('app.adminName', 'Dashboard | jobFinder') }}</title>
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="https://dw3i9sxi97owk.cloudfront.net/uploads/thumbs/db9c4e1327eb8fe5e9395a4b04e1ea4a_70x70.jpg" type="image/png">
@@ -32,25 +33,28 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="{{ asset('backend/assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('backend/assets/css/sidebar.css') }}">
-	   <!--====== Responsive css ======-->
+    <!--====== Responsive css ======-->
     <link rel="stylesheet" href="{{ asset('backend/assets/css/responsive.css') }}">
 
-     <!--====== CkEditors js ======-->
+    <!--====== CkEditors js ======-->
     <link rel="stylesheet" href="{{ asset('backend/assets/js/ckeditor.js') }}">
     <!-- Scripts -->
     <script>
-        window.Laravel = {!! json_encode([
-            'csrfToken' => csrf_token(),
-        ]) !!};
+        window.Laravel = {
+            !!json_encode([
+                'csrfToken' => csrf_token(),
+            ]) !!
+        };
     </script>
 
 </head>
+
 <body>
 
 
-<!-- Prealoder -->
-<div class="spinner_body">
-    <div class="spinner"></div>  
- </div>
- 
- <!-- Prealoder -->
+    <!-- Prealoder -->
+    <div class="spinner_body">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Prealoder -->

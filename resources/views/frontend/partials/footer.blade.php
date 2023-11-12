@@ -55,7 +55,7 @@
           Copyright &copy; </script>
           <script>
             document.write(new Date().getFullYear());
-          </script> All Rights Reserved | This JobBoard develop by <a href="https://shazib.vercel.app" target="_blank">Shazib Ahmed</a>
+          </script> All Rights Reserved | This jobFinder develop by <a href="https://shazib.vercel.app" target="_blank">Shazib Ahmed</a>
 
         </p>
       </div>

@@ -120,4 +120,4 @@
 
 </body>
 
-</html><?php /**PATH /mnt/01D98767132C6C80/Download/JobFinder-Job-Portal-Laravel-Vue-Script-main/resources/views////frontend/partials/footer.blade.php ENDPATH**/ ?>
+</html><?php /**PATH /mnt/01D98767132C6C80/Raqamisuq/Portfolio/Laravel/Lravel-Job-Portal/working/resources/views/frontend/partials/footer.blade.php ENDPATH**/ ?>
